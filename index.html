@@ -1,12 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Responsive Web</title>
+    <title>PorjoTalk | Your Trusted Travel Partner</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/da9af4df5f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <!-- ---header --- -->
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <div class="web-title">
+                <img src="images/Group 40071 (2).png" alt="">
+                <h1>Porjo<span>Talk</span></h1>
+            </div>
+            <ul>
+                <li><a class="home" href="#">Home</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <i id="hamburger" class="fa-solid fa-bars"></i>
+            </ul>
+        </nav>
+        <!-- Banner -->
+        <div class="banner">
+            <div class="banner-content">
+                <div class="banner-content-text">
+                    <h1>Explore Your Travel</h1>
+                    <p>From unattainable mountains to the mysterious rain forest or from festive towns and snowy
+                        adventures to tropical escapes.</p>
+                </div>
+                <div class="banner-content-box">
+                    <input type="text" placeholder="Where go">
+                    <select name="" id="">
+                        <option value="">When</option>
+                        <option value="">January</option>
+                        <option value="">February</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Select Type</option>
+                        <option value="">Family Tour</option>
+                        <option value="">Solo Travel</option>
+                    </select>
+                    <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- popular tour -->
+        <section class="popular">
+            <div class="popular-content">
+                <h2>Our Popular Tours</h2>
+                <p>You’ve probably got one or two of these destinations on your list of dream vacays. What can we say?
+                    People love them—and for very good reason.</p>
+                <ul>
+                    <li>Dubai is a destination that mixes modern culture with history, adventure with world-class
+                        shopping and entertainment. </li>
+                    <li>Bali is a living postcard, an Indonesian paradise that feels like a fantasy. </li>
+                    <li>Rome wasn't built in a day--and you'll need much more than a day to take in this timeless city.
+                    </li>
+                </ul>
+                <p>Travelers’ Choice Awards Best of the Best winners are destinations whose hotels, restaurants and
+                    things to do received a high volume of above-and-beyond reviews and opinions from our community over
+                    a 12-month period.</p>
+                <button class="btn-primary">Read More</button>
+            </div>
+            <div class="popular-img">
+                <img src="images/Rectangle 4.png" alt="">
+            </div>
+        </section>
+        <!-- Trending now section -->
+        <section class="trending">
+            <div class="trending-content">
+                <h2>Trending Now</h2>
+                <p>Book these experiences for a close-up look on what trending now.</p>
+            </div>
+            <div class="trending-card-container">
+                <div class="trending-card-1">
+                    <img src="images/swiss.jpg" alt="">
+                    <p>San Salvatore | Switzerland</p>
+                    <button class="btn-primary">Explore More</button>
+                </div>
+                <div class="trending-card-2">
+                    <img src="images/paris.jpg" alt="">
+                    <p>Eiffel Tower-Paris | France </p>
+                    <button class="btn-primary">Explore More</button>
+                </div>
+                <!-- <div class="trending-card-3">
+                    <img src="images/bandarban-sight.jpg" alt="">
+                    <p>Bandarban | Bangladesh</p>
+                    <button class="btn-secondary">Explore More</button>
+                </div> -->
+                <div class="trending-card-3">
+                    <img src="images/saint-martin.jpg" alt="">
+                    <p>Saint Martin's | bangladesh</p>
+                    <button class="btn-primary">Explore More</button>
+                </div>
+            </div>
+        </section>
+        <!-- choose destination section -->
+        <section class="destination">
+            <div class="destination-content">
+                <h2>Choose Your Destination</h2>
+                <p>Stay longer, see more, and let the magic of nature steal your heart. Be wise to choose your next
+                    travel destination with us</p>
+            </div>
+            <div class="destination-img">
+                <div class="destination-img-item1">
+                    <img src="images/maldives.png" alt="">
+                    <p>Maldives</p>
+                </div>
+                <div class="destination-img-item2">
+                    <img src="images/indonesia.png" alt="">
+                    <p>Indonesia</p>
+                </div>
+                <div class="destination-img-item3">
+                    <img src="images/srilanka.png" alt="">
+                    <p>Srilanka</p>
+                </div>
+                <div class="destination-img-item4">
+                    <img src="images/north-america.png" alt="">
+                    <p>North America</p>
+                </div>
+                <div class="destination-img-item5">
+                    <img src="images/kashmir.png" alt="">
+                    <p>Kashmir</p>
+                </div>
+                <div class="destination-img-item6">
+                    <img src="images/bangladesh.png" alt="">
+                    <p>Bangladesh</p>
+                </div>
+                <div class="destination-img-item7">
+                    <img src="images/bandarban.png" alt="">
+                    <p>Bandarban</p>
+                </div>
+            </div>
+        </section>
+        <!-- why choose us section -->
+        <section class="choose">
+            <div class="choose-content">
+                <h3>Why Choose Us</h3>
+                <p>There is bunch of providers out there to serve your thirst for traveling over the world. Then why you
+                    should choose us? Because..</p>
+            </div>
+            <div class="choose-card-container">
+                <div class="choose-card-1">
+                    <img src="images/hotel.png" alt="">
+                    <h4>Handpicked Hotels</h4>
+                    <p>Some travel agents specialize in specific destinations or types of travel (e.g., adventure
+                        travel, luxury travel). If you have a particular interest or niche, working with a specialist
+                        can enhance your travel experience.</p>
+                </div>
+                <div class="choose-card-2">
+                    <img src="images/worldwide-service.png" alt="">
+                    <h4>World Class Service</h4>
+                    <p>Travel agents often have extensive knowledge about various destinations, including the best times
+                        to visit, local customs, and must-see attractions. Their expertise can help you plan a more
+                        informed and enjoyable trip. </p>
+                </div>
+                <div class="choose-card-3">
+                    <img src="images/best-price.png" alt="">
+                    <h4>Best Price Guarantee</h4>
+                    <p>Travel agents often have access to exclusive deals, promotions, and discounts that may not be
+                        readily available to the general public. This can result in cost savings for your travel
+                        arrangements. </p>
+                </div>
+            </div>
+        </section>
+        <!-- Deals & discounts section -->
+        <section class="deals">
+            <div class="deals-content">
+                <h1>Deals & Discounts</h1>
+                <p>Remember to read the terms and conditions of any deal, and be cautious of hidden fees.</p>
+            </div>
+            <div class="deals-img">
+                <div class="deals-details">
+                    <div class="deals-details-icon">
+                        <div>
+                            <img src="images/day.svg" alt="">
+                            <p>7 Day / 6 Night</p>
+                        </div>
+                        <div>
+                            <img src="images/person.svg" alt="">
+                            <p>Max : 10</p>
+                        </div>
+                        <div>
+                            <img src="images/location.svg" alt="">
+                            <p>Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="deals-details-description">
+                        <h4>Tour To Satorini</h4>
+                        <p>Keep an eye out for flash sales from airlines, hotels, and travel agencies. These sales are often time-sensitive and can offer significant discounts.</p>
+                    </div>
+                    <div class="deals-details-price">
+                        <h5>Price: $1300-$1500</h5>
+                    </div>
+                    <button class="btn-primary">Book now</button>
+                </div>
+            </div>
+            <div class="deals-img deals-img2">
+                <div class="deals-details deals-details2">
+                    <div class="deals-details-icon">
+                        <div>
+                            <img src="images/day.svg" alt="">
+                            <p>7 Day / 6 Night</p>
+                        </div>
+                        <div>
+                            <img src="images/person.svg" alt="">
+                            <p>Max : 10</p>
+                        </div>
+                        <div>
+                            <img src="images/location.svg" alt="">
+                            <p>Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="deals-details-description">
+                        <h4>Tour To Satorini</h4>
+                        <p>Keep an eye out for flash sales from airlines, hotels, and travel agencies. These sales are often time-sensitive and can offer significant discounts.</p>
+                    </div>
+                    <div class="deals-details-price">
+                        <h5>Price: $1300-$1500</h5>
+                    </div>
+                    <button class="btn-primary">Book now</button>
+                </div>
+            </div>
+            <div class="deals-img">
+                <div class="deals-details">
+                    <div class="deals-details-icon">
+                        <div>
+                            <img src="images/day.svg" alt="">
+                            <p>7 Day / 6 Night</p>
+                        </div>
+                        <div>
+                            <img src="images/person.svg" alt="">
+                            <p>Max : 10</p>
+                        </div>
+                        <div>
+                            <img src="images/location.svg" alt="">
+                            <p>Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="deals-details-description">
+                        <h4>Tour To Satorini</h4>
+                        <p>Keep an eye out for flash sales from airlines, hotels, and travel agencies. These sales are often time-sensitive and can offer significant discounts.</p>
+                    </div>
+                    <div class="deals-details-price">
+                        <h5>Price: $1300-$1500</h5>
+                    </div>
+                    <button class="btn-primary">Book now</button>
+                </div>
+            </div>
+        </section>
+        <!-- Perfect place section -->
+        <section class="perfect">
+            <div class="perfect-content">
+                <h2>A Simple Perfect Place <br> To Get Lost</h2>
+                <p>If you're looking for a simple mountain place to get lost, consider the beautiful Hill tracts in Bandarban, Bangladesh. </p>
+                <ul>
+                    <li>There are numerous camping sites within the forest, allowing you to set up camp.</li>
+                    <li>The area is rich in biodiversity, and you might encounter various wildlife species during your hikes.</li>
+                </ul>
+                <button class="btn-primary">See More</button>
+            </div>
+            <div class="perfect-video">
+                <video src="images/video.mp4" controls></video>
+                <p>Watch Our Mountains in Bangladesh</p>
+            </div>
+        </section>
+        <!-- newsletter section -->
+        <section class="newsletter">
+            <div class="newsletter-form">
+                <div class="newsletter-form-content">
+                    <h4>Newsletter</h4>
+                    <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                    <hr>
+                    <input type="text" placeholder="Enter your name">
+                    <br>
+                    <input type="email" placeholder="Enter your email">
+                    <br>
+                    <button class="btn-primary">Subscribe</button>
+                </div>
+            </div>
+            <div class="newsletter-img">
+                <img src="images/Rectangle 8 (1).png" alt="">
+                <div class="save70">
+                    <p>porjotalk.com</p>
+                    <h2>Save up to 70%</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+            <div class="web-title">
+                <img src="images/Group 40071 (2).png" alt="">
+                <h2>Porjo<span>Talk</span></h2>
+            </div>
+            <div class="footer-description">
+                <p>Porjotalk.com is part of XYZ Group Limited, one of the country's leading providers of travel
+                    services. Follow us on social media for the latest upcoming hearing from us.</p>
+            </div>
+            <div class="social-links">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <hr>
+                <p>2024, All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
